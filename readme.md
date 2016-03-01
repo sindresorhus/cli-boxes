@@ -55,7 +55,7 @@ console.log(cliBoxes.single);
 
 ```
 ╭────╮
-│    │
+│     │
 ╰────╯
 ```
 

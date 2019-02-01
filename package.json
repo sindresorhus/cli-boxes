@@ -13,10 +13,11 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava && tsd-check"
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "boxes.json"
   ],
   "keywords": [
@@ -33,7 +34,8 @@
     "json"
   ],
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "^1.2.0",
+    "tsd-check": "^0.3.0",
+    "xo": "^0.24.0"
   }
 }

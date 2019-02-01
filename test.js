@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
-test(t => {
+test('single box', t => {
 	t.is(typeof m, 'object');
 	t.is(m.single.topLeft, '┌');
 });

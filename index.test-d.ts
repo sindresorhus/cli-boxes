@@ -1,4 +1,4 @@
-import { expectType } from 'tsd-check';
+import {expectType} from 'tsd-check';
 import cliBoxes, {BoxStyle, Boxes} from '.';
 
 expectType<Boxes>(cliBoxes);

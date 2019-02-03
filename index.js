@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('./boxes.json');
+const cliBoxes = require('./boxes.json');
+
+module.exports = cliBoxes;
+module.exports.default = cliBoxes;

@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from '.';
+import cliBoxes from '.';
 
-test('single box', t => {
-	t.is(typeof m, 'object');
-	t.is(m.single.topLeft, '┌');
+test('main', t => {
+	t.is(typeof cliBoxes, 'object');
+	t.is(cliBoxes.single.topLeft, '┌');
 });

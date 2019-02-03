@@ -23,7 +23,7 @@
 		"vertical": "│",
 		"horizontal": "─"
 	},
-	"single-double": {
+	"singleDouble": {
 		"topLeft": "╓",
 		"topRight": "╖",
 		"bottomRight": "╜",
@@ -31,7 +31,7 @@
 		"vertical": "║",
 		"horizontal": "─"
 	},
-	"double-single": {
+	"doubleSingle": {
 		"topLeft": "╒",
 		"topRight": "╕",
 		"bottomRight": "╛",

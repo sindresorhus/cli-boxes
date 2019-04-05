@@ -1,5 +1,6 @@
-import {expectType} from 'tsd-check';
-import cliBoxes, {BoxStyle, Boxes} from '.';
+import {expectType} from 'tsd';
+import cliBoxes = require('.');
+import {BoxStyle, Boxes} from '.';
 
 expectType<Boxes>(cliBoxes);
 

@@ -30,7 +30,7 @@
 		"bottomLeft": "┗",
 		"vertical": "┃",
 		"horizontal": "━"
-  },
+	},
 	"singleDouble": {
 		"topLeft": "╓",
 		"topRight": "╖",

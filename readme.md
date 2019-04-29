@@ -59,6 +59,14 @@ console.log(cliBoxes.single);
 ╰────╯
 ```
 
+#### `bold`
+
+```
+┏━━━━┓
+┃    ┃
+┗━━━━┛
+```
+
 #### `singleDouble`
 
 ```

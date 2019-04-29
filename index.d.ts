@@ -48,9 +48,9 @@ declare namespace cliBoxes {
 		/**
 		@example
 		```
-    ┏━━━━┓
-    ┃    ┃
-    ┗━━━━┛
+		  ┏━━━━┓
+		  ┃    ┃
+		  ┗━━━━┛
 		```
 		*/
 		readonly bold: BoxStyle;

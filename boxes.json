@@ -23,6 +23,14 @@
 		"vertical": "│",
 		"horizontal": "─"
 	},
+	"bold": {
+		"topLeft": "┏",
+		"topRight": "┓",
+		"bottomRight": "┛",
+		"bottomLeft": "┗",
+		"vertical": "┃",
+		"horizontal": "━"
+	},
 	"singleDouble": {
 		"topLeft": "╓",
 		"topRight": "╖",

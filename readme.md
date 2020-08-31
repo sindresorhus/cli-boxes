@@ -1,16 +1,14 @@
-# cli-boxes [![Build Status](https://travis-ci.org/sindresorhus/cli-boxes.svg?branch=master)](https://travis-ci.org/sindresorhus/cli-boxes)
+# cli-boxes [![Build Status](https://travis-ci.com/sindresorhus/cli-boxes.svg?branch=master)](https://travis-ci.com/github/sindresorhus/cli-boxes)
 
 > Boxes for use in the terminal
 
 The list of boxes is just a [JSON file](boxes.json) and can be used anywhere.
-
 
 ## Install
 
 ```
 $ npm install cli-boxes
 ```
-
 
 ## Usage
 
@@ -29,7 +27,6 @@ console.log(cliBoxes.single);
 }
 */
 ```
-
 
 ## API
 
@@ -91,11 +88,9 @@ console.log(cliBoxes.single);
 +----+
 ```
 
-
 ## Related
 
 - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal
-
 
 ---
 

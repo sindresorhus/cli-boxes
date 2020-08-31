@@ -25,7 +25,7 @@ console.log(cliBoxes.single);
     bottomRight: '┘',
     bottomLeft: '└',
     vertical: '│',
-    horizontal: '─''
+    horizontal: '─'
 }
 */
 ```

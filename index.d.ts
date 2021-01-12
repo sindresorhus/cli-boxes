@@ -1,46 +1,8 @@
 declare namespace cliBoxes {
 	/**
-	Style of the classic box border.
+	Style of the box border.
 	*/
 	interface BoxStyle {
-		readonly topLeft: string;
-		readonly topRight: string;
-		readonly bottomLeft: string;
-		readonly bottomRight: string;
-		readonly horizontal: string;
-		readonly vertical: string;
-	}
-
-	/**
-	Style of the horizontal box border. With custom left and right characters.
-	*/
-	interface BoxStyleHorizontal {
-		readonly topLeft: string;
-		readonly topRight: string;
-		readonly bottomLeft: string;
-		readonly bottomRight: string;
-		readonly horizontalTop: string;
-		readonly horizontalBottom: string;
-		readonly vertical: string;
-	}
-
-	/**
-	Style of the vertical box border. With custom top and bottom characters.
-	*/
-	interface BoxStyleVertical {
-		readonly topLeft: string;
-		readonly topRight: string;
-		readonly bottomLeft: string;
-		readonly bottomRight: string;
-		readonly horizontal: string;
-		readonly verticalLeft: string;
-		readonly verticalRight: string;
-	}
-
-	/**
-	Style of the vertical box border. With custom characters for both sides of horizontal and vertical.
-	*/
-	interface BoxStyleAll {
 		readonly topLeft: string;
 		readonly topRight: string;
 		readonly bottomLeft: string;
@@ -133,7 +95,7 @@ declare namespace cliBoxes {
 		↗↑↑↑↑↖
 		```
 		*/
-		readonly arrow: BoxStyleAll;
+		readonly arrow: BoxStyle;
 	}
 }
 
@@ -150,8 +112,10 @@ console.log(cliBoxes.single);
 // 	topRight: '┐',
 // 	bottomRight: '┘',
 // 	bottomLeft: '└',
-// 	vertical: '│',
-// 	horizontal: '─'
+// 	verticalLeft: '│',
+// 	verticalRight: '│',
+// 	horizontalTop: '─',
+// 	horizontalBottom: '─'
 // }
 ```
 */

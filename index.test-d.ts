@@ -1,6 +1,6 @@
 import {expectType} from 'tsd';
 import cliBoxes = require('.');
-import {BoxStyle, Boxes} from '.';
+import {BoxStyle, Boxes, BoxStyleAll} from '.';
 
 expectType<Boxes>(cliBoxes);
 
@@ -11,3 +11,4 @@ expectType<BoxStyle>(cliBoxes.round);
 expectType<BoxStyle>(cliBoxes.bold);
 expectType<BoxStyle>(cliBoxes.single);
 expectType<BoxStyle>(cliBoxes.singleDouble);
+expectType<BoxStyleAll>(cliBoxes.arrow);

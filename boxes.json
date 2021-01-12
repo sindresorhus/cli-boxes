@@ -54,5 +54,15 @@
 		"bottomLeft": "+",
 		"vertical": "|",
 		"horizontal": "-"
+	},
+	"arrow": {
+		"topLeft": "↘",
+		"topRight": "↙",
+		"bottomRight": "↖",
+		"bottomLeft": "↗",
+		"verticalLeft": "→",
+		"verticalRight": "←",
+		"horizontalTop": "↓",
+		"horizontalBottom": "↑"
 	}
 }

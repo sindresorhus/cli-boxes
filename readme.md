@@ -88,6 +88,14 @@ console.log(cliBoxes.single);
 +----+
 ```
 
+#### `arrow`
+
+```
+↘↓↓↓↓↙
+→    ←
+↗↑↑↑↑↖
+```
+
 ## Related
 
 - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal

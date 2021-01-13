@@ -4,5 +4,5 @@ import cliBoxes from '.';
 test('main', t => {
 	t.is(typeof cliBoxes, 'object');
 	t.is(cliBoxes.single.topLeft, '┌');
-	t.is(cliBoxes.arrow.verticalLeft, '→');
+	t.is(cliBoxes.arrow.left, '→');
 });

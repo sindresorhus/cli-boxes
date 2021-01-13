@@ -7,10 +7,10 @@ declare namespace cliBoxes {
 		readonly topRight: string;
 		readonly bottomLeft: string;
 		readonly bottomRight: string;
-		readonly horizontalTop: string;
-		readonly horizontalBottom: string;
-		readonly verticalLeft: string;
-		readonly verticalRight: string;
+		readonly top: string;
+		readonly bottom: string;
+		readonly left: string;
+		readonly right: string;
 	}
 
 	/**
@@ -112,10 +112,10 @@ console.log(cliBoxes.single);
 // 	topRight: '┐',
 // 	bottomRight: '┘',
 // 	bottomLeft: '└',
-// 	verticalLeft: '│',
-// 	verticalRight: '│',
-// 	horizontalTop: '─',
-// 	horizontalBottom: '─'
+// 	left: '│',
+// 	right: '│',
+// 	top: '─',
+// 	bottom: '─'
 // }
 ```
 */

@@ -4,79 +4,79 @@
 		"topRight": "┐",
 		"bottomRight": "┘",
 		"bottomLeft": "└",
-		"verticalLeft": "│",
-		"verticalRight": "│",
-		"horizontalTop": "─",
-		"horizontalBottom": "─"
+		"left": "│",
+		"right": "│",
+		"top": "─",
+		"bottom": "─"
 	},
 	"double": {
 		"topLeft": "╔",
 		"topRight": "╗",
 		"bottomRight": "╝",
 		"bottomLeft": "╚",
-		"verticalLeft": "║",
-		"verticalRight": "║",
-		"horizontalTop": "═",
-		"horizontalBottom": "═"
+		"left": "║",
+		"right": "║",
+		"top": "═",
+		"bottom": "═"
 	},
 	"round": {
 		"topLeft": "╭",
 		"topRight": "╮",
 		"bottomRight": "╯",
 		"bottomLeft": "╰",
-		"verticalLeft": "│",
-		"verticalRight": "│",
-		"horizontalTop": "─",
-		"horizontalBottom": "─"
+		"left": "│",
+		"right": "│",
+		"top": "─",
+		"bottom": "─"
 	},
 	"bold": {
 		"topLeft": "┏",
 		"topRight": "┓",
 		"bottomRight": "┛",
 		"bottomLeft": "┗",
-		"verticalLeft": "┃",
-		"verticalRight": "┃",
-		"horizontalTop": "━",
-		"horizontalBottom": "━"
+		"left": "┃",
+		"right": "┃",
+		"top": "━",
+		"bottom": "━"
 	},
 	"singleDouble": {
 		"topLeft": "╓",
 		"topRight": "╖",
 		"bottomRight": "╜",
 		"bottomLeft": "╙",
-		"verticalLeft": "║",
-		"verticalRight": "║",
-		"horizontalTop": "─",
-		"horizontalBottom": "─"
+		"left": "║",
+		"right": "║",
+		"top": "─",
+		"bottom": "─"
 	},
 	"doubleSingle": {
 		"topLeft": "╒",
 		"topRight": "╕",
 		"bottomRight": "╛",
 		"bottomLeft": "╘",
-		"verticalLeft": "│",
-		"verticalRight": "│",
-		"horizontalTop": "═",
-		"horizontalBottom": "═"
+		"left": "│",
+		"right": "│",
+		"top": "═",
+		"bottom": "═"
 	},
 	"classic": {
 		"topLeft": "+",
 		"topRight": "+",
 		"bottomRight": "+",
 		"bottomLeft": "+",
-		"verticalLeft": "|",
-		"verticalRight": "|",
-		"horizontalTop": "-",
-		"horizontalBottom": "-"
+		"left": "|",
+		"right": "|",
+		"top": "-",
+		"bottom": "-"
 	},
 	"arrow": {
 		"topLeft": "↘",
 		"topRight": "↙",
 		"bottomRight": "↖",
 		"bottomLeft": "↗",
-		"verticalLeft": "→",
-		"verticalRight": "←",
-		"horizontalTop": "↓",
-		"horizontalBottom": "↑"
+		"left": "→",
+		"right": "←",
+		"top": "↓",
+		"bottom": "↑"
 	}
 }

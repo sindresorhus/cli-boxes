@@ -22,10 +22,10 @@ console.log(cliBoxes.single);
 	topRight: '┐',
 	bottomRight: '┘',
 	bottomLeft: '└',
-	verticalLeft: '│',
-	verticalRight: '│',
-	horizontalTop: '─',
-	horizontalBottom: '─'
+	left: '│',
+	right: '│',
+	top: '─',
+	bottom: '─'
 }
 */
 ```

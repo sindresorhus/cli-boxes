@@ -18,12 +18,14 @@ const cliBoxes = require('cli-boxes');
 console.log(cliBoxes.single);
 /*
 {
-    topLeft: '┌',
-    topRight: '┐',
-    bottomRight: '┘',
-    bottomLeft: '└',
-    vertical: '│',
-    horizontal: '─'
+	topLeft: '┌',
+	topRight: '┐',
+	bottomRight: '┘',
+	bottomLeft: '└',
+	left: '│',
+	right: '│',
+	top: '─',
+	bottom: '─'
 }
 */
 ```
@@ -86,6 +88,14 @@ console.log(cliBoxes.single);
 +----+
 |    |
 +----+
+```
+
+#### `arrow`
+
+```
+↘↓↓↓↓↙
+→    ←
+↗↑↑↑↑↖
 ```
 
 ## Related

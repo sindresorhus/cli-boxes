@@ -11,3 +11,4 @@ expectType<BoxStyle>(cliBoxes.round);
 expectType<BoxStyle>(cliBoxes.bold);
 expectType<BoxStyle>(cliBoxes.single);
 expectType<BoxStyle>(cliBoxes.singleDouble);
+expectType<BoxStyle>(cliBoxes.arrow);

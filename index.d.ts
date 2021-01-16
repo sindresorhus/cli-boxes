@@ -7,8 +7,10 @@ declare namespace cliBoxes {
 		readonly topRight: string;
 		readonly bottomLeft: string;
 		readonly bottomRight: string;
-		readonly horizontal: string;
-		readonly vertical: string;
+		readonly top: string;
+		readonly bottom: string;
+		readonly left: string;
+		readonly right: string;
 	}
 
 	/**
@@ -84,6 +86,16 @@ declare namespace cliBoxes {
 		```
 		*/
 		readonly classic: BoxStyle;
+
+		/**
+		@example
+		```
+		↘↓↓↓↓↙
+		→    ←
+		↗↑↑↑↑↖
+		```
+		*/
+		readonly arrow: BoxStyle;
 	}
 }
 
@@ -100,8 +112,10 @@ console.log(cliBoxes.single);
 // 	topRight: '┐',
 // 	bottomRight: '┘',
 // 	bottomLeft: '└',
-// 	vertical: '│',
-// 	horizontal: '─'
+// 	left: '│',
+// 	right: '│',
+// 	top: '─',
+// 	bottom: '─'
 // }
 ```
 */

@@ -19,13 +19,13 @@ console.log(cliBoxes.single);
 /*
 {
 	topLeft: '┌',
-	topRight: '┐',
-	bottomRight: '┘',
-	bottomLeft: '└',
-	left: '│',
-	right: '│',
 	top: '─',
-	bottom: '─'
+	topRight: '┐',
+	right: '│',
+	bottomRight: '┘',
+	bottom: '─',
+	bottomLeft: '└',
+	left: '│'
 }
 */
 ```

@@ -1,5 +1,5 @@
 import test from 'ava';
-import cliBoxes from '.';
+import cliBoxes from './index.js';
 
 test('main', t => {
 	t.is(typeof cliBoxes, 'object');

@@ -4,13 +4,13 @@ declare namespace cliBoxes {
 	*/
 	interface BoxStyle {
 		readonly topLeft: string;
-		readonly topRight: string;
-		readonly bottomLeft: string;
-		readonly bottomRight: string;
 		readonly top: string;
-		readonly bottom: string;
-		readonly left: string;
+		readonly topRight: string;
 		readonly right: string;
+		readonly bottomRight: string;
+		readonly bottom: string;
+		readonly bottomLeft: string;
+		readonly left: string;
 	}
 
 	/**
@@ -109,13 +109,13 @@ import cliBoxes = require('cli-boxes');
 console.log(cliBoxes.single);
 // {
 // 	topLeft: '┌',
-// 	topRight: '┐',
-// 	bottomRight: '┘',
-// 	bottomLeft: '└',
-// 	left: '│',
-// 	right: '│',
 // 	top: '─',
-// 	bottom: '─'
+// 	topRight: '┐',
+// 	right: '│',
+// 	bottomRight: '┘',
+// 	bottom: '─',
+// 	bottomLeft: '└',
+// 	left: '│'
 // }
 ```
 */

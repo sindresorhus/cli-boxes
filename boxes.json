@@ -1,82 +1,82 @@
 {
 	"single": {
 		"topLeft": "┌",
-		"topRight": "┐",
-		"bottomRight": "┘",
-		"bottomLeft": "└",
-		"left": "│",
-		"right": "│",
 		"top": "─",
-		"bottom": "─"
+		"topRight": "┐",
+		"right": "│",
+		"bottomRight": "┘",
+		"bottom": "─",
+		"bottomLeft": "└",
+		"left": "│"
 	},
 	"double": {
 		"topLeft": "╔",
-		"topRight": "╗",
-		"bottomRight": "╝",
-		"bottomLeft": "╚",
-		"left": "║",
-		"right": "║",
 		"top": "═",
-		"bottom": "═"
+		"topRight": "╗",
+		"right": "║",
+		"bottomRight": "╝",
+		"bottom": "═",
+		"bottomLeft": "╚",
+		"left": "║"
 	},
 	"round": {
 		"topLeft": "╭",
-		"topRight": "╮",
-		"bottomRight": "╯",
-		"bottomLeft": "╰",
-		"left": "│",
-		"right": "│",
 		"top": "─",
-		"bottom": "─"
+		"topRight": "╮",
+		"right": "│",
+		"bottomRight": "╯",
+		"bottom": "─",
+		"bottomLeft": "╰",
+		"left": "│"
 	},
 	"bold": {
 		"topLeft": "┏",
-		"topRight": "┓",
-		"bottomRight": "┛",
-		"bottomLeft": "┗",
-		"left": "┃",
-		"right": "┃",
 		"top": "━",
-		"bottom": "━"
+		"topRight": "┓",
+		"right": "┃",
+		"bottomRight": "┛",
+		"bottom": "━",
+		"bottomLeft": "┗",
+		"left": "┃"
 	},
 	"singleDouble": {
 		"topLeft": "╓",
-		"topRight": "╖",
-		"bottomRight": "╜",
-		"bottomLeft": "╙",
-		"left": "║",
-		"right": "║",
 		"top": "─",
-		"bottom": "─"
+		"topRight": "╖",
+		"right": "║",
+		"bottomRight": "╜",
+		"bottom": "─",
+		"bottomLeft": "╙",
+		"left": "║"
 	},
 	"doubleSingle": {
 		"topLeft": "╒",
-		"topRight": "╕",
-		"bottomRight": "╛",
-		"bottomLeft": "╘",
-		"left": "│",
-		"right": "│",
 		"top": "═",
-		"bottom": "═"
+		"topRight": "╕",
+		"right": "│",
+		"bottomRight": "╛",
+		"bottom": "═",
+		"bottomLeft": "╘",
+		"left": "│"
 	},
 	"classic": {
 		"topLeft": "+",
-		"topRight": "+",
-		"bottomRight": "+",
-		"bottomLeft": "+",
-		"left": "|",
-		"right": "|",
 		"top": "-",
-		"bottom": "-"
+		"topRight": "+",
+		"right": "|",
+		"bottomRight": "+",
+		"bottom": "-",
+		"bottomLeft": "+",
+		"left": "|"
 	},
 	"arrow": {
 		"topLeft": "↘",
-		"topRight": "↙",
-		"bottomRight": "↖",
-		"bottomLeft": "↗",
-		"left": "→",
-		"right": "←",
 		"top": "↓",
-		"bottom": "↑"
+		"topRight": "↙",
+		"right": "←",
+		"bottomRight": "↖",
+		"bottom": "↑",
+		"bottomLeft": "↗",
+		"left": "→"
 	}
 }

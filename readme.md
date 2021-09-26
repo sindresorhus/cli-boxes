@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install cli-boxes
+npm install cli-boxes
 ```
 
 ## Usage

@@ -2,8 +2,6 @@
 
 > Boxes for use in the terminal
 
-The list of boxes is just a [JSON file](boxes.json) and can be used anywhere.
-
 ## Install
 
 ```
@@ -13,7 +11,7 @@ $ npm install cli-boxes
 ## Usage
 
 ```js
-const cliBoxes = require('cli-boxes');
+import cliBoxes from 'cli-boxes';
 
 console.log(cliBoxes.single);
 /*

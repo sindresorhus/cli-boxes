@@ -1,6 +1,84 @@
-'use strict';
-const cliBoxes = require('./boxes.json');
+const cliBoxes = {
+	single: {
+		topLeft: '┌',
+		top: '─',
+		topRight: '┐',
+		right: '│',
+		bottomRight: '┘',
+		bottom: '─',
+		bottomLeft: '└',
+		left: '│',
+	},
+	double: {
+		topLeft: '╔',
+		top: '═',
+		topRight: '╗',
+		right: '║',
+		bottomRight: '╝',
+		bottom: '═',
+		bottomLeft: '╚',
+		left: '║',
+	},
+	round: {
+		topLeft: '╭',
+		top: '─',
+		topRight: '╮',
+		right: '│',
+		bottomRight: '╯',
+		bottom: '─',
+		bottomLeft: '╰',
+		left: '│',
+	},
+	bold: {
+		topLeft: '┏',
+		top: '━',
+		topRight: '┓',
+		right: '┃',
+		bottomRight: '┛',
+		bottom: '━',
+		bottomLeft: '┗',
+		left: '┃',
+	},
+	singleDouble: {
+		topLeft: '╓',
+		top: '─',
+		topRight: '╖',
+		right: '║',
+		bottomRight: '╜',
+		bottom: '─',
+		bottomLeft: '╙',
+		left: '║',
+	},
+	doubleSingle: {
+		topLeft: '╒',
+		top: '═',
+		topRight: '╕',
+		right: '│',
+		bottomRight: '╛',
+		bottom: '═',
+		bottomLeft: '╘',
+		left: '│',
+	},
+	classic: {
+		topLeft: '+',
+		top: '-',
+		topRight: '+',
+		right: '|',
+		bottomRight: '+',
+		bottom: '-',
+		bottomLeft: '+',
+		left: '|',
+	},
+	arrow: {
+		topLeft: '↘',
+		top: '↓',
+		topRight: '↙',
+		right: '←',
+		bottomRight: '↖',
+		bottom: '↑',
+		bottomLeft: '↗',
+		left: '→',
+	},
+};
 
-module.exports = cliBoxes;
-// TODO: Remove this for the next major release
-module.exports.default = cliBoxes;
+export default cliBoxes;

@@ -1,110 +1,108 @@
-declare namespace cliBoxes {
+/**
+Style of the box border.
+*/
+export type BoxStyle = {
+	readonly topLeft: string;
+	readonly top: string;
+	readonly topRight: string;
+	readonly right: string;
+	readonly bottomRight: string;
+	readonly bottom: string;
+	readonly bottomLeft: string;
+	readonly left: string;
+};
+
+/**
+All box styles.
+*/
+export type Boxes = {
 	/**
-	Style of the box border.
+	@example
+	```
+	┌────┐
+	│    │
+	└────┘
+	```
 	*/
-	interface BoxStyle {
-		readonly topLeft: string;
-		readonly top: string;
-		readonly topRight: string;
-		readonly right: string;
-		readonly bottomRight: string;
-		readonly bottom: string;
-		readonly bottomLeft: string;
-		readonly left: string;
-	}
+	readonly single: BoxStyle;
 
 	/**
-	All box styles.
+	@example
+	```
+	╔════╗
+	║    ║
+	╚════╝
+	```
 	*/
-	interface Boxes {
-		/**
-		@example
-		```
-		┌────┐
-		│    │
-		└────┘
-		```
-		*/
-		readonly single: BoxStyle;
+	readonly double: BoxStyle;
 
-		/**
-		@example
-		```
-		╔════╗
-		║    ║
-		╚════╝
-		```
-		*/
-		readonly double: BoxStyle;
+	/**
+	@example
+	```
+	╭────╮
+	│    │
+	╰────╯
+	```
+	*/
+	readonly round: BoxStyle;
 
-		/**
-		@example
-		```
-		╭────╮
-		│    │
-		╰────╯
-		```
-		*/
-		readonly round: BoxStyle;
+	/**
+	@example
+	```
+	┏━━━━┓
+	┃    ┃
+	┗━━━━┛
+	```
+	*/
+	readonly bold: BoxStyle;
 
-		/**
-		@example
-		```
-		┏━━━━┓
-		┃    ┃
-		┗━━━━┛
-		```
-		*/
-		readonly bold: BoxStyle;
+	/**
+	@example
+	```
+	╓────╖
+	║    ║
+	╙────╜
+	```
+	*/
+	readonly singleDouble: BoxStyle;
 
-		/**
-		@example
-		```
-		╓────╖
-		║    ║
-		╙────╜
-		```
-		*/
-		readonly singleDouble: BoxStyle;
+	/**
+	@example
+	```
+	╒════╕
+	│    │
+	╘════╛
+	```
+	*/
+	readonly doubleSingle: BoxStyle;
 
-		/**
-		@example
-		```
-		╒════╕
-		│    │
-		╘════╛
-		```
-		*/
-		readonly doubleSingle: BoxStyle;
+	/**
+	@example
+	```
+	+----+
+	|    |
+	+----+
+	```
+	*/
+	readonly classic: BoxStyle;
 
-		/**
-		@example
-		```
-		+----+
-		|    |
-		+----+
-		```
-		*/
-		readonly classic: BoxStyle;
-
-		/**
-		@example
-		```
-		↘↓↓↓↓↙
-		→    ←
-		↗↑↑↑↑↖
-		```
-		*/
-		readonly arrow: BoxStyle;
-	}
-}
+	/**
+	@example
+	```
+	↘↓↓↓↓↙
+	→    ←
+	↗↑↑↑↑↖
+	```
+	*/
+	readonly arrow: BoxStyle;
+};
 
 /**
 Boxes for use in the terminal.
 
 @example
 ```
-import cliBoxes = require('cli-boxes');
+import cliBoxes from 'cli-boxes';
 
 console.log(cliBoxes.single);
 // {
@@ -119,9 +117,6 @@ console.log(cliBoxes.single);
 // }
 ```
 */
-declare const cliBoxes: cliBoxes.Boxes & {
-	// TODO: Remove this for the next major release
-	default: typeof cliBoxes;
-};
+declare const cliBoxes: Boxes;
 
-export = cliBoxes;
+export default cliBoxes;

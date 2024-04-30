@@ -1,6 +1,3 @@
-'use strict';
-const cliBoxes = require('./boxes.json');
+import cliBoxes from './boxes.json' with {type: 'json'};
 
-module.exports = cliBoxes;
-// TODO: Remove this for the next major release
-module.exports.default = cliBoxes;
+export default cliBoxes;

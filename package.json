@@ -1,6 +1,6 @@
 {
 	"name": "cli-boxes",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Boxes for use in the terminal",
 	"license": "MIT",
 	"repository": "sindresorhus/cli-boxes",

@@ -17,7 +17,7 @@
 	},
 	"sideEffects": false,
 	"engines": {
-		"node": ">=18.20"
+		"node": ">=18.20 <19 >=20.10.0"
 	},
 	"scripts": {
 		"//test": "xo && ava && tsc --noEmit index.d.ts",

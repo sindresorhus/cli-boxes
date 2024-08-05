@@ -12,8 +12,11 @@
 	},
 	"type": "module",
 	"exports": {
-		"types": "./index.d.ts",
-		"default": "./index.js"
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.js"
+		},
+		"./boxes.json": "./boxes.json"
 	},
 	"sideEffects": false,
 	"engines": {
